@@ -1,0 +1,305 @@
+{
+    "config":{
+        "Health":{
+            "Effects":{
+                "Stimulator":{
+                    "Buffs":{
+                        "SuperBuff":[
+                            {
+                                "BuffType": "StaminaRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 10000,
+                                "AbsoluteValue": true,
+                                "SkillName": ""
+                            },
+                            {
+                                "BuffType": "WeightLimit",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 10000,
+                                "AbsoluteValue": true,
+                                "SkillName": ""
+                            },
+                            {
+                                "BuffType": "DamageModifier",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": -100,
+                                "AbsoluteValue": true,
+                                "SkillName": ""
+                            },
+                            {
+                                "BuffType": "HealthRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 10000,
+                                "AbsoluteValue": true,
+                                "SkillName": ""
+                            }
+                        ],
+                        "SuperSkills":[
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Immunity"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Metabolism"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Endurance"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Strength"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Vitality"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Health"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "StressResistance"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Throwing"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "RecoilControl"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Pistol"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Revolver"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Assault"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Shotgun"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Sniper"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "DMR"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "CovertMovement"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "FieldMedicine"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "LightVests"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "HeavyVests"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "WeaponTreatment"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "MagDrills"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Perception"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Intellect"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Attention"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Charisma"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "Memory"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "AimDrills"
+                            },
+                            {
+                                "BuffType": "SkillRate",
+                                "Chance": 1,
+                                "Delay": 1,
+                                "Duration": 18000,
+                                "Value": 60,
+                                "AbsoluteValue": true,
+                                "SkillName": "TroubleShooting"
+                            }
+
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

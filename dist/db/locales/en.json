@@ -1,0 +1,104 @@
+{
+    "templates":{
+        "superammo":{
+            "Description": "Holds all the bullets",
+            "Name": "Super Ammunition case",
+            "ShortName": "Super Ammo"
+        },
+        "superdocs":{
+            "Description": "Holds all the documents",
+            "Name": "Super Documents Case",
+            "ShortName": "Super Docs"
+        },
+        "superdog":{
+            "Description": "Holds all the dog tags",
+            "Name": "Super DogTag Case",
+            "ShortName": "Super Dog"
+        },
+        "superifak":{
+            "Name": "Super IFAK",
+            "ShortName": "Super IFAK",
+            "Description": "The replacement to all your medical needs"
+        },
+        "superkappa":{
+            "Name": "Super Kappa",
+            "ShortName": "Super Kappa",
+            "Description": "I should really just stop making super things"
+        },
+        "superkeytool":{
+            "Name": "Super Keytool",
+            "ShortName": "Super Keytool",
+            "Description": "Got Keys?"
+        },
+        "supermag":{
+            "Description": "Holds all the magazines",
+            "Name": "Super Magazine Case",
+            "ShortName": "Super Mags"
+        },
+        "supermed":{
+            "Description": "Holds all the meds",
+            "Name": "Super Medicine Case",
+            "ShortName": "Super Med"
+        },
+        "supernade":{
+            "Description": "Holds all the grenades",
+            "Name": "Super Grenade Case",
+            "ShortName": "Super Nade"
+        },
+        "superpilgrim":{
+            "Name": "Super Pilgrim",
+            "ShortName": "Super Pilgrim",
+            "Description": "What else do you need to carry?"
+        },
+        "superpistol":{
+            "Description": "Holds all the pistols",
+            "Name": "Super Pistol Case",
+            "ShortName": "Super Pistol"
+        },
+        "superscav":{
+            "Name": "Super Lucky Scav Junk Box",
+            "ShortName": "Super Scav",
+            "Description": "The replacement to all your storage needs"
+        },
+        "superweaponscase":{
+          "Name": "Super Weapon case",
+          "ShortName": "Super Weapons",
+          "Description": "Y'all can stop asking now :)"
+        },
+        "superthiccitemscase":{
+            "Name": "Super T H I C C Items Case",
+            "ShortName": "Super T H I C C",
+            "Description": "She lookin' juicy"
+        },
+        "supera18":{
+            "Name": "Super Ars Arma A18 Skanda plate carrier",
+            "ShortName": "Super A18",
+            "Description": "This should stop a few bullets."
+        },
+        "superbandana":{
+            "Name": "Super Bandana",
+            "ShortName": "Super Bandana",
+            "Description": "This must be what Rambo wore."
+        },
+        "superstim":{
+            "Name": "Super Stim",
+            "ShortName": "Super Stim",
+            "Description": "FEEL THE POWAH"
+        },
+        "superskill":{
+            "Name": "Super Skill Stim",
+            "ShortName": "Skill Stim",
+            "Description": "EXP. SHARE."
+        },
+        "orangebandana":{
+            "Name": "Super Bandana Orange",
+            "ShortName": "Orange Bandana",
+            "Description": "This must be what Rambo wore."
+        },
+        "orangem45a1slide":{
+            "Name": "Orange M45A1 .45 ACP slide",
+            "ShortName": "O. M45A1 slide",
+            "Description": "A standard-issue slide for the M45A1 pistol, manufactured by Colt. Except Orange"
+        }
+    }
+}

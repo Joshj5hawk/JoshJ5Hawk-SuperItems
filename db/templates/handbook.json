@@ -1,0 +1,104 @@
+{
+"Items":[
+    {
+        "Id": "superammo",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "superdocs",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "superdog",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "superpilgrim",
+        "ParentId": "5b5f6f6c86f774093f2ecf0b",
+        "Price": 69420
+    },
+    {
+        "Id": "superifak",
+        "ParentId": "5b47574386f77428ca22b338",
+        "Price": 69420
+    },
+    {
+        "Id": "superkappa",
+        "ParentId": "5b5f6fd286f774093f2ecf0d",
+        "Price": 69420
+    },
+    {
+        "Id": "superkeytool",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "supermed",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "supermag",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "supernade",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "superpistol",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "superscav",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "superweaponscase",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "superthiccitemscase",
+        "ParentId": "5b5f6fa186f77409407a7eb7",
+        "Price": 69420
+    },
+    {
+        "Id": "supera18",
+        "ParentId": "5b5f701386f774093f2ecf0f",
+        "Price": 69420
+    },
+    {
+        "Id": "superbandana",
+        "ParentId": "5b47574386f77428ca22b330",
+        "Price": 69420
+    },
+    {
+        "Id": "superstim",
+        "ParentId": "5b47574386f77428ca22b33a",
+        "Price": 69420
+    },
+    {
+        "Id": "superskill",
+        "ParentId": "5b47574386f77428ca22b33a",
+        "Price": 69420
+    },
+    {
+        "Id": "orangebandana",
+        "ParentId": "5b47574386f77428ca22b330",
+        "Price": 69420
+    },
+    {
+      "Id": "orangem45a1slide",
+      "ParentId": "5b5f764186f77447ec5d7714",
+      "Price": 5100
+    }
+]
+}

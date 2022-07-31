@@ -1,0 +1,2212 @@
+{
+    "templates":{
+        "superdocs":{
+        "_id": "superdocs",
+        "_name": "item_container_super_docs",
+        "_parent": "5795f317245977243854e041",
+        "_type": "Item",
+        "_props": {
+            "Name": "Super Documents Case",
+            "ShortName": "Super Documents Case",
+            "Description": "Super Documents Case",
+            "Weight": 0.5,
+            "BackgroundColor": "orange",
+            "Width": 1,
+            "Height": 1,
+            "StackMaxSize": 1,
+            "Rarity": "Superrare",
+            "SpawnChance": 1,
+            "CreditsPrice": 748453,
+            "ItemSound": "keys",
+            "Prefab": {
+                "path": "assets/content/items/containers/item_container_superdocs/item_container_superdocs.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "StackObjectsCount": 1,
+            "NotShownInSlot": false,
+            "ExaminedByDefault": false,
+            "ExamineTime": 1,
+            "IsUndiscardable": false,
+            "IsUnsaleable": false,
+            "IsUnbuyable": false,
+            "IsUngivable": false,
+            "IsLockedafterEquip": false,
+            "QuestItem": false,
+            "LootExperience": 20,
+            "ExamineExperience": 2,
+            "HideEntrails": true,
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "MergesWithChildren": false,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": true,
+            "BannedFromRagfair": false,
+            "ConflictingItems": [],
+            "FixedPrice": false,
+            "Unlootable": false,
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UnlootableFromSide": [],
+            "ChangePriceCoef": 1,
+            "AllowSpawnOnLocations": [],
+            "SendToClient": false,
+            "AnimationVariantsNumber": 0,
+            "DiscardingBlock": false,
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "5b7c710788a4506dec015959",
+                    "_parent": "5b7c710788a4506dec015957",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                "59faff1d86f7746c51718c9c",
+                                "5d235b4d86f7742e017bc88a",
+                                "5f745ee30acaeb0d490d8c5b",
+                                "619cbf9e0a7c3a1a2731940a",
+                                "5448ecbe4bdc2d60728b4568",
+                                "543be5e94bdc2df1348b4568",
+                                "567849dd4bdc2d150f8b456e",
+                                "543be5dd4bdc2deb348b4569"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 14,
+                        "cellsV": 14,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": [],
+            "CanPutIntoDuringTheRaid": true,
+            "CantRemoveFromSlotsDuringRaid": [],
+            "TagColor": 0,
+            "TagName": ""
+        },
+        "_proto": "577e1c9d2459773cd707c525"
+        },
+        "superdog":{
+          "_id": "superdog",
+        "_name": "item_container_superdog",
+        "_parent": "5795f317245977243854e041",
+        "_type": "Item",
+        "_props": {
+            "Name": "Super Dogtag Case",
+            "ShortName": "Super Dogtag Case",
+            "Description": "Super Dogtag Case",
+            "Weight": 0.5,
+            "BackgroundColor": "orange",
+            "Width": 1,
+            "Height": 1,
+            "StackMaxSize": 1,
+            "Rarity": "Superrare",
+            "SpawnChance": 1,
+            "CreditsPrice": 748453,
+            "ItemSound": "keys",
+            "Prefab": {
+                "path": "assets/content/items/containers/item_container_superdog/item_container_superdog.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "",
+                "rcid": ""
+            },
+            "StackObjectsCount": 1,
+            "NotShownInSlot": false,
+            "ExaminedByDefault": false,
+            "ExamineTime": 1,
+            "IsUndiscardable": false,
+            "IsUnsaleable": false,
+            "IsUnbuyable": false,
+            "IsUngivable": false,
+            "IsLockedafterEquip": false,
+            "QuestItem": false,
+            "LootExperience": 20,
+            "ExamineExperience": 2,
+            "HideEntrails": true,
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "MergesWithChildren": false,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": true,
+            "BannedFromRagfair": false,
+            "ConflictingItems": [],
+            "FixedPrice": false,
+            "Unlootable": false,
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UnlootableFromSide": [],
+            "ChangePriceCoef": 1,
+            "AllowSpawnOnLocations": [],
+            "SendToClient": false,
+            "AnimationVariantsNumber": 0,
+            "DiscardingBlock": false,
+            "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "5b7c710788a4506dec015959",
+                    "_parent": "5b7c710788a4506dec015957",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                "59f32bb586f774757e1e8442",
+                                "59f32c3b86f77472a31742f0"
+                                ],
+                                "ExcludedFilter": []
+                            }
+                        ],
+                        "cellsH": 14,
+                        "cellsV": 14,
+                        "minCount": 0,
+                        "maxCount": 0,
+                        "maxWeight": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "Slots": [],
+            "CanPutIntoDuringTheRaid": true,
+            "CantRemoveFromSlotsDuringRaid": [],
+            "TagColor": 0,
+            "TagName": ""
+        },
+        "_proto": "577e1c9d2459773cd707c525"
+        },
+        "superpilgrim":{
+            "_id": "superpilgrim",
+            "_name": "item_container_superpilgrim",
+            "_parent": "5448e53e4bdc2d60728b4567",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Pilgrim",
+                "ShortName": "Super Pilgrim",
+                "Description": "Super Pilgrim",
+                "Weight": 1,
+                "BackgroundColor": "orange",
+                "Width": 5,
+                "Height": 7,
+                "StackMaxSize": 1,
+                "Rarity": "Common",
+                "SpawnChance": 3,
+                "CreditsPrice": 69420,
+                "ItemSound": "gear_backpack",
+                "Prefab": {
+                    "path": "assets/content/items/equipment/backpack_pilgrim/item_equipment_backpack_super_pilgrim.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 10,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "56e294d8d2720bbb668b456a",
+                        "_parent": "56e294cdd2720b603a8b4575",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 6,
+                            "cellsV": 100,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "isSecured": true,
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "SearchSound": "looting_body_extended",
+                "BlocksArmorVest": false,
+                "speedPenaltyPercent": 0,
+                "GridLayoutName": ""
+            },
+            "_proto": "545cdae64bdc2d39198b4568"
+        },
+        "superammo":{
+            "_id": "superammo",
+            "_name": "item_container_superammo",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Ammo Containter",
+                "ShortName": "Super Ammo Containter",
+                "Description": "Super Ammo Containter",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 2,
+                "Height": 2,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 748453,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "assets/content/items/containers/item_container_superammo/item_container_superammo.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "5b7c710788a4506dec015957",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                "5485a8684bdc2da71d8b4567",
+                                "543be5cb4bdc2deb348b4568"
+                                ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 14,
+                            "cellsV": 14,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "superifak": {
+            "_id": "superifak",
+            "_name": "item_meds_superifak",
+            "_parent": "5448f39d4bdc2d0a728b4568",
+            "_type": "Item",
+            "_props": {
+                "Name": "superifak",
+                "ShortName": "superifak",
+                "Description": "Super IFAK",
+                "Weight": 0.8,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "Rarity": "Rare",
+                "SpawnChance": 10,
+                "CreditsPrice": 69420,
+                "ItemSound": "med_medkit",
+                "Prefab": {
+                    "path": "assets/content/weapons/usable_items/item_ifak/item_ifak_loot.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "assets/content/weapons/usable_items/item_ifak/item_ifak_container.bundle",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 25,
+                "ExamineExperience": 10,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 2,
+                "DiscardingBlock": false,
+                "medUseTime": 1,
+                "medEffectType": "duringUse",
+                "MaxHpResource": 6000,
+                "hpResourceRate": 200,
+                "StimulatorBuffs":"",
+                "effects_health": {
+                    "Hydration": {
+                        "value": 1000
+                    },
+                    "Energy": {
+                        "value": 1000
+                    }
+                },
+                "effects_damage": {
+                    "LightBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "Intoxication": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "RadExposure": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "HeavyBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost" : 0
+                    },
+                    "DestroyedPart": {
+                        "delay": 0,
+                        "duration": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "Fracture": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Contusion": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Pain": {
+                        "delay": 0,
+                        "duration": 36000,
+                        "fadeOut": 0
+                    }
+                    
+                }
+            },
+            "_proto": "544fb45d4bdc2dee738b4568"
+        },
+        "superkappa": {
+            "_id": "superkappa",
+            "_name": "item_container_secured_superkappa",
+            "_parent": "5448bf274bdc2dfc2f8b456a",
+            "_type": "Item",
+            "_props": {
+                "Name": "superkappa",
+                "ShortName": "superkappa",
+                "Description": "Super Kappa",
+                "Weight": 2,
+                "BackgroundColor": "orange",
+                "Width": 3,
+                "Height": 3,
+                "StackMaxSize": 1,
+                "Rarity": "common",
+                "SpawnChance": 4,
+                "CreditsPrice": 69420,
+                "ItemSound": "container_plastic",
+                "Prefab": {
+                    "path": "assets/content/items/containers/item_container_secured_super_kappa/item_container_secured_super_kappa.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 30,
+                "ExamineExperience": 10,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": true,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": true,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5c093ca986f7740a1867ab14",
+                        "_parent": "5c093ca986f7740a1867ab12",
+                        "_props": {
+                            "filters": [],
+                            "cellsH": 6,
+                            "cellsV": 100,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [
+                    "SecuredContainer"
+                ],
+                "SearchSound": "cashregister_looting",
+                "BlocksArmorVest": false,
+                "containType": [],
+                "sizeWidth": 6,
+                "sizeHeight": 100,
+                "isSecured": true,
+                "spawnTypes": "None",
+                "lootFilter": [],
+                "spawnRarity": "Common",
+                "minCountSpawn": 0,
+                "maxCountSpawn": 0,
+                "openedByKeyID": []
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "superkeytool": {
+            "_id": "superkeytool",
+            "_name": "item_container_super_keybar",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Key-tool",
+                "ShortName": "Super Key-tool",
+                "Description": "Super Key-tool",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 748453,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_container_keybar/item_container_super_keybar.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "59fafd4b86f7745ca07e1233",
+                        "_parent": "59fafd4b86f7745ca07e1232",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                    "5c99f98d86f7745c314214b3"
+                                    ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 16,
+                            "cellsV": 16,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "supermag":{
+            "_id": "supermag",
+            "_name": "item_container_supermag",
+            "_parent": "5671435f4bdc2d96058b4569",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Magazine Case",
+                "ShortName": "Super Magazine Case",
+                "Description": "Super Magazine Case",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 3,
+                "Height": 2,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 748453,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "assets/content/items/containers/item_container_supermag/item_container_supermag.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "supermag",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                    "5448bc234bdc2d3c308b4569"
+                                    ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 14,
+                            "cellsV": 14,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "supermed": {
+            "_id": "supermed",
+            "_name": "item_container_supermed",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Medicine Case",
+                "ShortName": "Super Medicine Case",
+                "Description": "Super Medicine Case",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 748453,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "assets/content/items/containers/item_container_supermed/item_container_supermed.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "supermed",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                    "57864c8c245977548867e7f1",
+                                    "543be5664bdc2dd4348b4569"
+                                    ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 14,
+                            "cellsV": 14,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "supernade": {
+            "_id": "supernade",
+            "_name": "item_container_supernade",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Grenade Case",
+                "ShortName": "Super Grenade Case",
+                "Description": "Super Grenade Case",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 2,
+                "Height": 2,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 748453,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "assets/content/items/containers/item_container_supernade/item_container_supernade.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "5b7c710788a4506dec015957",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                    "5e2af51086f7746d3f3c3402",
+                                    "5656eb674bdc2d35148b457c",
+                                    "5ede474b0c226a66f5402622",
+                                    "5ede475b549eed7c6d5c18fb",
+                                    "5ede4739e0350d05467f73e8",
+                                    "5f0c892565703e5c461894e9",
+                                    "5ede47405b097655935d7d16",
+                                    "5ede475339ee016e8c534742",
+                                    "5ede47641cf3836a88318df1",
+                                    "543be6564bdc2df4348b4568"
+                                    ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 14,
+                            "cellsV": 14,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "superpistol": {
+            "_id": "superpistol",
+            "_name": "item_container_superpistol",
+            "_parent": "5671435f4bdc2d96058b4569",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Pistol Case",
+                "ShortName": "Super Pistol Case",
+                "Description": "Super Pistol Case",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 2,
+                "Height": 2,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 748453,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "assets/content/items/containers/item_container_superpistol/item_container_superpistol.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "superpistol",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                    "5448bc234bdc2d3c308b4569",
+                                    "5447b5cf4bdc2d65278b4567",
+                                    "5485a8684bdc2da71d8b4567",
+                                    "543be5cb4bdc2deb348b4568"
+                                    ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 14,
+                            "cellsV": 14,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "superscav": {
+            "_id": "superscav",
+            "_name": "item_container_super_scav",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Scav Box",
+                "ShortName": "Super Scav Box",
+                "Description": "Super Scav Box",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 4,
+                "Height": 4,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 748453,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "assets/content/items/containers/item_container_super_junk/item_container_super_junk.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "5b7c710788a4506dec015957",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                "5448eb774bdc2d0a728b4567",
+                                "5448ecbe4bdc2d60728b4568",
+                                "5447e0e74bdc2d3c308b4567"
+                                ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 16,
+                            "cellsV": 16,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "superweaponscase":{
+            "_id": "superweaponscase",
+            "_name": "item_container_superweaponscase",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Super Weapons Case",
+                "ShortName": "Super Weapons Case",
+                "Description": "Super Weapons Case",
+                "Weight": 9,
+                "BackgroundColor": "orange",
+                "Width": 5,
+                "Height": 2,
+                "StackMaxSize": 1,
+                "ItemSound": "container_plastic",
+                "Prefab": {
+                "path": "assets/content/items/containers/item_container_superweaponscase/item_container_superweaponscase.bundle",
+                "rcid": ""
+                },
+                "UsePrefab": {
+                "path": "",
+                "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 30,
+                "ExamineExperience": 10,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": 0,
+                "Grids": [
+                {
+                    "_name": "main",
+                    "_id": "59fb023c86f7746d0d4b423d",
+                    "_parent": "59fb023c86f7746d0d4b423c",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5448fe124bdc2da5018b4567",
+                            "5422acb9af1c889c16000029",
+                            "5485a8684bdc2da71d8b4567",
+                            "543be5cb4bdc2deb348b4568"
+                        ],
+                        "ExcludedFilter": []
+                        }
+                    ],
+                    "cellsH": 16,
+                    "cellsV": 16,
+                    "minCount": 0,
+                    "maxCount": 0,
+                    "maxWeight": 0,
+                    "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+                ]
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+            
+        },
+        "superthiccitemscase":{
+        "_id": "superthiccitemscase",
+        "_name": "item_container_super_items_thicc",
+        "_parent": "5795f317245977243854e041",
+        "_type": "Item",
+        "_props": {
+          "Name": "Super T H I C C Items Case",
+          "ShortName": "Super T H I C C",
+          "Description": "Super T H I C C Items Case",
+          "Weight": 23,
+          "BackgroundColor": "orange",
+          "Width": 5,
+          "Height": 3,
+          "StackMaxSize": 1,
+          "ItemSound": "container_plastic",
+          "Prefab": {
+            "path": "assets/content/items/containers/item_container_super_items_thicc/item_container_super_items_thicc.bundle",
+            "rcid": ""
+          },
+          "UsePrefab": {
+            "path": "",
+            "rcid": ""
+          },
+          "StackObjectsCount": 1,
+          "NotShownInSlot": false,
+          "ExaminedByDefault": false,
+          "ExamineTime": 1,
+          "IsUndiscardable": false,
+          "IsUnsaleable": false,
+          "IsUnbuyable": false,
+          "IsUngivable": false,
+          "IsLockedafterEquip": false,
+          "QuestItem": false,
+          "LootExperience": 30,
+          "ExamineExperience": 10,
+          "HideEntrails": true,
+          "RepairCost": 0,
+          "RepairSpeed": 0,
+          "ExtraSizeLeft": 0,
+          "ExtraSizeRight": 0,
+          "ExtraSizeUp": 0,
+          "ExtraSizeDown": 0,
+          "ExtraSizeForceAdd": false,
+          "MergesWithChildren": false,
+          "CanSellOnRagfair": false,
+          "CanRequireOnRagfair": false,
+          "ConflictingItems": [],
+          "Unlootable": false,
+          "UnlootableFromSlot": "FirstPrimaryWeapon",
+          "UnlootableFromSide": [],
+          "AnimationVariantsNumber": 0,
+          "DiscardingBlock": false,
+          "RagFairCommissionModifier": 1,
+          "IsAlwaysAvailableForInsurance": false,
+          "DiscardLimit": 0,
+          "Grids": [
+            {
+              "_name": "main",
+              "_id": "5c0a840b86f7742ffa4f2484",
+              "_parent": "5c0a840b86f7742ffa4f2482",
+              "_props": {
+                "filters": [
+                  {
+                    "Filter": [
+                      "5448eb774bdc2d0a728b4567",
+                      "543be5f84bdc2dd4348b456a",
+                      "5645bcb74bdc2ded0b8b4578",
+                      "567143bf4bdc2d1a0f8b4567",
+                      "5448fe124bdc2da5018b4567",
+                      "5448e53e4bdc2d60728b4567",
+                      "5448e5284bdc2dcb718b4567",
+                      "60b0f6c058e0b0481a09ad11",
+                      "5aafbde786f774389d0cbc0f",
+                      "619cbf9e0a7c3a1a2731940a",
+                      "5c093db286f7740a1b2617e3",
+                      "5e2af55f86f7746d4159f07c",
+                      "619cbf7d23893217ec30b689",
+                      "59fafd4b86f7745ca07e1232",
+                      "5d235bb686f77443f4331278",
+                      "5c127c4486f7745625356c13",
+                      "5aafbcd986f7745e590fff23",
+                      "59fb016586f7746d0d4b423a",
+                      "5c093e3486f77430cb02e593",
+                      "59fb023c86f7746d0d4b423c",
+                      "590c60fc86f77412b13fddcf",
+                      "5783c43d2459774bbe137486",
+                      "5422acb9af1c889c16000029",
+                      "543be6674bdc2df1348b4569",
+                      "5448ecbe4bdc2d60728b4568",
+                      "543be5e94bdc2df1348b4568",
+                      "5447e1d04bdc2dff2f8b4567",
+                      "567849dd4bdc2d150f8b456e",
+                      "543be5664bdc2dd4348b4569",
+                      "5447e0e74bdc2d3c308b4567",
+                      "5661632d4bdc2d903d8b456b",
+                      "543be6564bdc2df4348b4568"
+                    ],
+                    "ExcludedFilter": []
+                  }
+                ],
+                "cellsH": 16,
+                "cellsV": 16,
+                "minCount": 0,
+                "maxCount": 0,
+                "maxWeight": 0,
+                "isSortingTable": false
+              },
+              "_proto": "55d329c24bdc2d892f8b4567"
+            }
+          ]
+        },
+        "_proto": "577e1c9d2459773cd707c525"
+        },
+        "supera18":{
+          "_id": "supera18",
+          "_name": "item_equipment_armor_super_a18",
+          "_parent": "5448e5284bdc2dcb718b4567",
+          "_type": "Item",
+          "_props": {
+            "Name": "supera18",
+            "ShortName": "supera18",
+            "Description": "supera18",
+            "Weight": 8.2,
+            "BackgroundColor": "orange",
+            "Width": 4,
+            "Height": 3,
+            "StackMaxSize": 1,
+            "ItemSound": "gear_generic",
+            "Prefab": {
+              "path": "assets/content/items/equipment/armor_super_ars_arma_a18/armor_super_ars_arma_a18.bundle",
+              "rcid": ""
+            },
+            "UsePrefab": {
+              "path": "",
+              "rcid": ""
+            },
+            "StackObjectsCount": 1,
+            "NotShownInSlot": false,
+            "ExaminedByDefault": false,
+            "ExamineTime": 1,
+            "IsUndiscardable": false,
+            "IsUnsaleable": false,
+            "IsUnbuyable": false,
+            "IsUngivable": false,
+            "IsLockedafterEquip": false,
+            "QuestItem": false,
+            "LootExperience": 20,
+            "ExamineExperience": 10,
+            "HideEntrails": true,
+            "RepairCost": 1,
+            "RepairSpeed": 0,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "MergesWithChildren": false,
+            "CanSellOnRagfair": false,
+            "CanRequireOnRagfair": false,
+            "ConflictingItems": [],
+            "Unlootable": false,
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UnlootableFromSide": [],
+            "AnimationVariantsNumber": 0,
+            "DiscardingBlock": false,
+            "RagFairCommissionModifier": 1,
+            "IsAlwaysAvailableForInsurance": false,
+            "DiscardLimit": -1,
+            "Grids": [
+              {
+                "_name": "1",
+                "_id": "5d5d87f786f77427997cfaf1",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "2",
+                "_id": "5d5d87f786f77427997cfaf2",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "3",
+                "_id": "5d5d87f786f77427997cfaf3",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "4",
+                "_id": "5d5d87f786f77427997cfaf4",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "5",
+                "_id": "5d5d87f786f77427997cfaf5",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "6",
+                "_id": "5d5d87f786f77427997cfaf6",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "7",
+                "_id": "5d5d87f786f77427997cfaf7",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "8",
+                "_id": "5d5d87f786f77427997cfaf8",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "9",
+                "_id": "5d5d87f786f77427997cfaf9",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "10",
+                "_id": "5d5d8b4e86f7742797262045",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 2,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "11",
+                "_id": "5d5d8b5b86f774393602d6cf",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "12",
+                "_id": "5d5d8b6086f77427997cfafb",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "13",
+                "_id": "5d5d8b6686f7744a7a274304",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "14",
+                "_id": "5d5d8b6c86f77439eb4c2c76",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_name": "15",
+                "_id": "5d5d8b7286f774279a21cbe6",
+                "_parent": "5d5d87f786f77427997cfaef",
+                "_props": {
+                  "filters": [
+                    {
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ],
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ]
+                    }
+                  ],
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "minCount": 0,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "isSortingTable": false
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              }
+            ],
+            "Slots": [],
+            "CanPutIntoDuringTheRaid": true,
+            "CantRemoveFromSlotsDuringRaid": [],
+            "SearchSound": "looting_body_extended",
+            "BlocksArmorVest": false,
+            "RigLayoutName": "A18",
+            "Durability": 900000,
+            "MaxDurability": 900000,
+            "armorZone": [
+              "Chest",
+              "Stomach",
+              "LeftArm",
+              "RightArm",
+              "Head",
+              "LeftLeg",
+              "RightLeg"
+
+            ],
+            "headSegments":[
+              "Top",
+              "Nape",
+              "Ears",
+              "Eyes",
+              "Jaws"
+              ],
+            "armorClass": 10,
+            "speedPenaltyPercent": 0,
+            "mousePenalty": 0,
+            "weaponErgonomicPenalty": 0,
+            "BluntThroughput": 0,
+            "ArmorMaterial": "UHMWPE"
+          },
+          "_proto": "544a5caa4bdc2d1a388b4568"
+        },
+        "superbandana":{
+          "_id": "superbandana",
+          "_name": "item_equipment_super_head_bandana",
+          "_parent": "5a341c4086f77401f2541505",
+          "_type": "Item",
+          "_props": {
+            "Name": "superbandana",
+            "ShortName": "superbandana",
+            "Description": "superbandana",
+            "Weight": 0.1,
+            "BackgroundColor": "orange",
+            "Width": 1,
+            "Height": 1,
+            "StackMaxSize": 1,
+            "ItemSound": "gear_generic",
+            "Prefab": {
+              "path": "assets/content/items/equipment/head_bandana/item_equipment_super_head_bandana.bundle",
+              "rcid": ""
+            },
+            "UsePrefab": {
+              "path": "",
+              "rcid": ""
+            },
+            "StackObjectsCount": 1,
+            "NotShownInSlot": false,
+            "ExaminedByDefault": false,
+            "ExamineTime": 1,
+            "IsUndiscardable": false,
+            "IsUnsaleable": false,
+            "IsUnbuyable": false,
+            "IsUngivable": false,
+            "IsLockedafterEquip": false,
+            "QuestItem": false,
+            "LootExperience": 20,
+            "ExamineExperience": 10,
+            "HideEntrails": false,
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "MergesWithChildren": false,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": true,
+            "ConflictingItems": [],
+            "Unlootable": false,
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UnlootableFromSide": [],
+            "AnimationVariantsNumber": 0,
+            "DiscardingBlock": false,
+            "RagFairCommissionModifier": 1,
+            "IsAlwaysAvailableForInsurance": false,
+            "DiscardLimit": -1,
+            "Grids": [],
+            "Slots": [],
+            "CanPutIntoDuringTheRaid": true,
+            "CantRemoveFromSlotsDuringRaid": [],
+            "BlocksEarpiece": false,
+            "BlocksEyewear": false,
+            "BlocksHeadwear": false,
+            "BlocksFaceCover": false,
+            "Durability": 90000,
+            "MaxDurability": 90000,
+            "armorClass": "10",
+            "speedPenaltyPercent": 0,
+            "mousePenalty": 0,
+            "weaponErgonomicPenalty": 0,
+            "armorZone": [
+              "Chest",
+              "Stomach",
+              "LeftArm",
+              "RightArm",
+              "Head",
+              "LeftLeg",
+              "RightLeg"
+
+            ],
+            "headSegments":[
+              "Top",
+              "Nape",
+              "Ears",
+              "Eyes",
+              "Jaws"
+              ],
+            "Indestructibility": 0.9,
+            "FaceShieldComponent": false,
+            "FaceShieldMask": "NoMask",
+            "HasHinge": false,
+            "MaterialType": "BodyArmor",
+            "RicochetParams": {
+              "x": 0,
+              "y": 0,
+              "z": 80
+            },
+            "DeafStrength": "None",
+            "BluntThroughput": 0,
+            "ArmorMaterial": "Helmet",
+            "BlindnessProtection": 0
+          },
+          "_proto": "5645bc214bdc2d363b8b4571"
+        },
+        "superstim":{
+            "_id": "superstim",
+            "_name": "superstim",
+            "_parent": "5448f3a64bdc2d60728b456a",
+            "_type": "Item",
+            "_props": {
+            "Name": "superstim",
+            "ShortName": "superstim",
+            "Description": "",
+            "Weight": 0.05,
+            "BackgroundColor": "orange",
+            "Width": 1,
+            "Height": 1,
+            "StackMaxSize": 1,
+            "ItemSound": "med_stimulator",
+            "Prefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_loot.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_container.bundle",
+                "rcid": ""
+            },
+            "StackObjectsCount": 1,
+            "NotShownInSlot": false,
+            "ExaminedByDefault": false,
+            "ExamineTime": 1,
+            "IsUndiscardable": false,
+            "IsUnsaleable": false,
+            "IsUnbuyable": false,
+            "IsUngivable": false,
+            "IsLockedafterEquip": false,
+            "QuestItem": false,
+            "LootExperience": 20,
+            "ExamineExperience": 8,
+            "HideEntrails": false,
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "MergesWithChildren": false,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": true,
+            "ConflictingItems": [],
+            "Unlootable": false,
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UnlootableFromSide": [],
+            "AnimationVariantsNumber": 0,
+            "DiscardingBlock": false,
+            "RagFairCommissionModifier": 1,
+            "IsAlwaysAvailableForInsurance": false,
+            "DiscardLimit": 2,
+            "DropSoundType": "None",
+            "medUseTime": 2,
+            "medEffectType": "duringUse",
+            "MaxHpResource": 69,
+            "hpResourceRate": 0,
+            "StimulatorBuffs": "SuperBuff",
+            "effects_health": [],
+                "effects_damage": {
+                    "LightBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "Intoxication": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "RadExposure": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "HeavyBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost" : 0
+                    },
+                    "DestroyedPart": {
+                        "delay": 0,
+                        "duration": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "Fracture": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Contusion": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Pain": {
+                        "delay": 0,
+                        "duration": 36000,
+                        "fadeOut": 0
+                    }
+                }
+            },
+                "_proto": "544fb3f34bdc2d03748b456a"
+                
+        },
+        "superskill":{
+            "_id": "superskill",
+            "_name": "superskill",
+            "_parent": "5448f3a64bdc2d60728b456a",
+            "_type": "Item",
+            "_props": {
+            "Name": "superskill",
+            "ShortName": "superskill",
+            "Description": "",
+            "Weight": 0.05,
+            "BackgroundColor": "orange",
+            "Width": 1,
+            "Height": 1,
+            "StackMaxSize": 1,
+            "ItemSound": "med_stimulator",
+            "Prefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_morphine_loot.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "assets/content/weapons/usable_items/item_syringe/item_syringe_container.bundle",
+                "rcid": ""
+            },
+            "StackObjectsCount": 1,
+            "NotShownInSlot": false,
+            "ExaminedByDefault": false,
+            "ExamineTime": 1,
+            "IsUndiscardable": false,
+            "IsUnsaleable": false,
+            "IsUnbuyable": false,
+            "IsUngivable": false,
+            "IsLockedafterEquip": false,
+            "QuestItem": false,
+            "LootExperience": 20,
+            "ExamineExperience": 8,
+            "HideEntrails": false,
+            "RepairCost": 0,
+            "RepairSpeed": 0,
+            "ExtraSizeLeft": 0,
+            "ExtraSizeRight": 0,
+            "ExtraSizeUp": 0,
+            "ExtraSizeDown": 0,
+            "ExtraSizeForceAdd": false,
+            "MergesWithChildren": false,
+            "CanSellOnRagfair": true,
+            "CanRequireOnRagfair": true,
+            "ConflictingItems": [],
+            "Unlootable": false,
+            "UnlootableFromSlot": "FirstPrimaryWeapon",
+            "UnlootableFromSide": [],
+            "AnimationVariantsNumber": 0,
+            "DiscardingBlock": false,
+            "RagFairCommissionModifier": 1,
+            "IsAlwaysAvailableForInsurance": false,
+            "DiscardLimit": 2,
+            "DropSoundType": "None",
+            "medUseTime": 2,
+            "medEffectType": "duringUse",
+            "MaxHpResource": 69,
+            "hpResourceRate": 0,
+            "StimulatorBuffs": "SuperSkills",
+            "effects_health": [],
+            "effects_damage": []
+            
+            },
+                "_proto": "544fb3f34bdc2d03748b456a"
+                
+        },
+        "orangebandana":{
+              "_id": "orangebandana",
+              "_name": "item_equipment_super_head_bandana",
+              "_parent": "5a341c4086f77401f2541505",
+              "_type": "Item",
+              "_props": {
+                "Name": "orangebandana",
+                "ShortName": "orangebandana",
+                "Description": "orangebandana",
+                "Weight": 0.1,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "gear_generic",
+                "Prefab": {
+                  "path": "assets/content/items/equipment/head_bandana/item_equipment_super_head_bandana_orange.bundle",
+                  "rcid": ""
+                },
+                "UsePrefab": {
+                  "path": "",
+                  "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 10,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "Grids": [],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "BlocksEarpiece": false,
+                "BlocksEyewear": false,
+                "BlocksHeadwear": false,
+                "BlocksFaceCover": false,
+                "Durability": 90000,
+                "MaxDurability": 90000,
+                "armorClass": "10",
+                "speedPenaltyPercent": 0,
+                "mousePenalty": 0,
+                "weaponErgonomicPenalty": 0,
+                "armorZone": [
+                  "Chest",
+                  "Stomach",
+                  "LeftArm",
+                  "RightArm",
+                  "Head",
+                  "LeftLeg",
+                  "RightLeg"
+      
+                ],
+                "headSegments":[
+                  "Top",
+                  "Nape",
+                  "Ears",
+                  "Eyes",
+                  "Jaws"
+                  ],
+                "Indestructibility": 0.9,
+                "FaceShieldComponent": false,
+                "FaceShieldMask": "NoMask",
+                "HasHinge": false,
+                "MaterialType": "BodyArmor",
+                "RicochetParams": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 80
+                },
+                "DeafStrength": "None",
+                "BluntThroughput": 0,
+                "ArmorMaterial": "Helmet",
+                "BlindnessProtection": 0
+              },
+              "_proto": "5645bc214bdc2d363b8b4571"
+        }
+}
+}
