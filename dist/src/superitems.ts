@@ -252,7 +252,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperDocs: Item = {
@@ -262,7 +262,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperDog: Item = {
@@ -272,7 +272,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperIfak: Item = {
@@ -282,7 +282,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperKappa: Item = {
@@ -292,7 +292,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperKeyTool: Item = {
@@ -302,7 +302,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperMag: Item = {
@@ -312,7 +312,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperMed: Item = {
@@ -322,7 +322,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperNade: Item = {
@@ -332,7 +332,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperPilgrim: Item = {
@@ -342,7 +342,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperPistol: Item = {
@@ -352,7 +352,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperScav: Item = {
@@ -362,7 +362,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperWeaponsCase: Item = {
@@ -372,7 +372,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperThiccItemsCase: Item = {
@@ -382,7 +382,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperA18: Item = {
@@ -392,7 +392,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd:{
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperBandana: Item = {
@@ -402,7 +402,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd:{
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperBandanaOrange: Item = {
@@ -412,7 +412,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd:{
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperSTim: Item = {
@@ -422,7 +422,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd:{
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         
@@ -433,7 +433,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd:{
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const neworangeM4A1Slide: Item = {
@@ -443,7 +443,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             slotId: "hideout",
             upd:{
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         assortTable.items.push(newSuperAmmo);

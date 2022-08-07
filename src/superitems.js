@@ -141,6 +141,20 @@ class SuperItems {
         db.templates.items[m45A1SlideOrange]._id = m45A1SlideOrange;
         db.templates.items[m45A1SlideOrange]._props.Prefab.path = "assets/content/items/mods/recievers/reciever_m1911_colt_m45a1_orange.bundle";
         db.templates.items["5f36a0e5fbf956000b716b65"]._props.Slots[2]._props.filters[0].Filter.push(m45A1SlideOrange);
+        this.cloneItem("superpilgrim", "superduperpilgrim");
+        db.templates.items.superduperpilgrim._props.Width = 1;
+        db.templates.items.superduperpilgrim._props.Height = 1;
+        db.templates.items.superduperpilgrim._props.Grids[0]._props.cellsH = 6;
+        db.templates.items.superduperpilgrim._props.Grids[0]._props.cellsV = 600;
+        //superpilgrim
+        //superkappa
+        //superscav
+        //superammo
+        //supernade
+        //superpistol
+        //supermag
+        //superweaponscase
+        //superthiccitemscase
     }
     cloneItem(itemtoClone, newitemID) {
         const JsonUtil = tsyringe_1.container.resolve("JsonUtil");
@@ -189,6 +203,16 @@ class SuperItems {
             loyal_level_items: {}
         };
         const ROUBLE_ID = "5449016a4bdc2d6f028b456f";
+        const newSuperDuperPilgrim = {
+            _id: "superduperpilgrim",
+            _tpl: "superduperpilgrim",
+            parentId: "hideout",
+            slotId: "hideout",
+            upd: {
+                UnlimitedCount: true,
+                StackObjectsCount: 999999999,
+            }
+        };
         const newSuperAmmo = {
             _id: "superammo",
             _tpl: "superammo",
@@ -196,7 +220,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperDocs = {
@@ -206,7 +230,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperDog = {
@@ -216,7 +240,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperIfak = {
@@ -226,7 +250,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperKappa = {
@@ -236,7 +260,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperKeyTool = {
@@ -246,7 +270,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperMag = {
@@ -256,7 +280,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperMed = {
@@ -266,7 +290,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperNade = {
@@ -276,7 +300,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperPilgrim = {
@@ -286,7 +310,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperPistol = {
@@ -296,7 +320,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperScav = {
@@ -306,7 +330,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperWeaponsCase = {
@@ -316,7 +340,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperThiccItemsCase = {
@@ -326,7 +350,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperA18 = {
@@ -336,7 +360,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperBandana = {
@@ -346,7 +370,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperBandanaOrange = {
@@ -356,7 +380,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperSTim = {
@@ -366,7 +390,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperSkill = {
@@ -376,7 +400,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const neworangeM4A1Slide = {
@@ -386,9 +410,10 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
+        //assortTable.items.push(newSuperDuperPilgrim);
         assortTable.items.push(newSuperAmmo);
         assortTable.items.push(newSuperDocs);
         assortTable.items.push(newSuperDog);
@@ -409,6 +434,14 @@ class SuperItems {
         assortTable.items.push(newSuperSkill);
         assortTable.items.push(newSuperBandanaOrange);
         assortTable.items.push(neworangeM4A1Slide);
+        assortTable.barter_scheme["superduperpilgrim"] = [
+            [
+                {
+                    count: this.modConfig.superammoPrice,
+                    _tpl: ROUBLE_ID
+                }
+            ]
+        ];
         assortTable.barter_scheme["superammo"] = [
             [
                 {
@@ -569,6 +602,7 @@ class SuperItems {
                 }
             ]
         ];
+        assortTable.loyal_level_items["superduperpilgrim"] = 1;
         assortTable.loyal_level_items["superammo"] = 1;
         assortTable.loyal_level_items["superdocs"] = 1;
         assortTable.loyal_level_items["superdog"] = 1;

@@ -196,7 +196,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperDocs = {
@@ -206,7 +206,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperDog = {
@@ -216,7 +216,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperIfak = {
@@ -226,7 +226,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperKappa = {
@@ -236,7 +236,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperKeyTool = {
@@ -246,7 +246,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperMag = {
@@ -256,7 +256,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperMed = {
@@ -266,7 +266,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperNade = {
@@ -276,7 +276,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperPilgrim = {
@@ -286,7 +286,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperPistol = {
@@ -296,7 +296,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperScav = {
@@ -306,7 +306,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperWeaponsCase = {
@@ -316,7 +316,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperThiccItemsCase = {
@@ -326,7 +326,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperA18 = {
@@ -336,7 +336,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperBandana = {
@@ -346,7 +346,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperBandanaOrange = {
@@ -356,7 +356,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperSTim = {
@@ -366,7 +366,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const newSuperSkill = {
@@ -376,7 +376,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         const neworangeM4A1Slide = {
@@ -386,7 +386,7 @@ class SuperItems {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: true,
-                StackObjectsCount: 999999999
+                StackObjectsCount: 999999999,
             }
         };
         assortTable.items.push(newSuperAmmo);
