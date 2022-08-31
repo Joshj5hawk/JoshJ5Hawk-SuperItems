@@ -1,3 +1,4 @@
+import { ApplicationContext } from "../context/ApplicationContext";
 import { ProfileHelper } from "../helpers/ProfileHelper";
 import { TraderHelper } from "../helpers/TraderHelper";
 import { IPmcData } from "../models/eft/common/IPmcData";
@@ -8,22 +9,29 @@ import { IGetProfileRequestData } from "../models/eft/match/IGetProfileRequestDa
 import { IJoinMatchRequestData } from "../models/eft/match/IJoinMatchRequestData";
 import { IJoinMatchResult } from "../models/eft/match/IJoinMatchResult";
 import { IStartOfflineRaidRequestData } from "../models/eft/match/IStartOffineRaidRequestData";
+import { IBotConfig } from "../models/spt/config/IBotConfig";
 import { IInRaidConfig } from "../models/spt/config/IInRaidConfig";
 import { IMatchConfig } from "../models/spt/config/IMatchConfig";
+import { ILogger } from "../models/spt/utils/ILogger";
 import { ConfigServer } from "../servers/ConfigServer";
 import { SaveServer } from "../servers/SaveServer";
 import { BotLootCacheService } from "../services/BotLootCacheService";
 import { MatchLocationService } from "../services/MatchLocationService";
+import { ProfileSnapshotService } from "../services/ProfileSnapshotService";
 export declare class MatchController {
+    protected logger: ILogger;
     protected saveServer: SaveServer;
     protected profileHelper: ProfileHelper;
     protected matchLocationService: MatchLocationService;
     protected traderHelper: TraderHelper;
     protected botLootCacheService: BotLootCacheService;
     protected configServer: ConfigServer;
+    protected profileSnapshotService: ProfileSnapshotService;
+    protected applicationContext: ApplicationContext;
     protected matchConfig: IMatchConfig;
     protected inraidConfig: IInRaidConfig;
-    constructor(saveServer: SaveServer, profileHelper: ProfileHelper, matchLocationService: MatchLocationService, traderHelper: TraderHelper, botLootCacheService: BotLootCacheService, configServer: ConfigServer);
+    protected botConfig: IBotConfig;
+    constructor(logger: ILogger, saveServer: SaveServer, profileHelper: ProfileHelper, matchLocationService: MatchLocationService, traderHelper: TraderHelper, botLootCacheService: BotLootCacheService, configServer: ConfigServer, profileSnapshotService: ProfileSnapshotService, applicationContext: ApplicationContext);
     getEnabled(): boolean;
     getProfile(info: IGetProfileRequestData): IPmcData[];
     createGroup(sessionID: string, info: ICreateGroupRequestData): any;

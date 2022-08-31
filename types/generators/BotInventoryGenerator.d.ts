@@ -1,4 +1,4 @@
-import { Inventory as PmcInventory } from "../models/eft/common/IPmcData";
+import { Inventory as PmcInventory } from "../models/eft/common/tables/IBotBase";
 import { Inventory, Chances, Generation, Mods } from "../models/eft/common/tables/IBotType";
 import { HashUtil } from "../utils/HashUtil";
 import { RandomUtil } from "../utils/RandomUtil";
@@ -18,7 +18,7 @@ export declare class BotInventoryGenerator {
     protected botGeneratorHelper: BotGeneratorHelper;
     protected weightedRandomHelper: WeightedRandomHelper;
     constructor(logger: ILogger, hashUtil: HashUtil, randomUtil: RandomUtil, databaseServer: DatabaseServer, botWeaponGenerator: BotWeaponGenerator, botLootGenerator: BotLootGenerator, botGeneratorHelper: BotGeneratorHelper, weightedRandomHelper: WeightedRandomHelper);
-    generateInventory(templateInventory: Inventory, equipmentChances: Chances, generation: Generation, botRole: string, isPmc: boolean): PmcInventory;
+    generateInventory(sessionId: string, templateInventory: Inventory, equipmentChances: Chances, generation: Generation, botRole: string, isPmc: boolean): PmcInventory;
     protected generateEquipment(equipmentSlot: string, equipmentPool: Record<string, number>, modPool: Mods, spawnChances: Chances, botRole: string, inventory: PmcInventory): void;
     protected generateInventoryBase(): PmcInventory;
 }

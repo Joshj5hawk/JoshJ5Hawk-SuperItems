@@ -99,6 +99,11 @@
             "Name": "Orange M45A1 .45 ACP slide",
             "ShortName": "O. M45A1 slide",
             "Description": "A standard-issue slide for the M45A1 pistol, manufactured by Colt. Except Orange"
+        },
+        "superduperpilgrim":{
+            "Name": "Super Duper Pilgrim",
+            "ShortName": "Super Duper Pilgrim",
+            "Description": "What else do you need to carry?"
         }
     }
 }

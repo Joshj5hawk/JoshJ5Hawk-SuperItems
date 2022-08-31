@@ -42,8 +42,6 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
         this.registerProfileImage(container);
 
         this.setupTraderUpdateTime(container);
-
-        logger.logWithColor("HEY! The database isn't loaded yet!", LogTextColor.red);
        
     }
 
@@ -89,7 +87,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             
             if (debug)
             {
-                logger.logWithColor(item + " added", LogTextColor.green);
+                logger.logWithColor(item + " added", LogTextColor.GREEN);
             }
         }
         
@@ -99,7 +97,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             locales.en.templates[locale] = mydb.locales.en.templates[locale];
             if (debug)
             {
-                logger.logWithColor(locale + " locale added", LogTextColor.cyan);
+                logger.logWithColor(locale + " locale added", LogTextColor.CYAN);
             }
         }
 
@@ -110,7 +108,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
                 db.templates.handbook.Items.push(handbook);
             if (debug)
             {
-                logger.logWithColor(handbook.Id + " handbook added", LogTextColor.red);
+                logger.logWithColor(handbook.Id + " handbook added", LogTextColor.RED);
             }
         }
         
@@ -150,8 +148,6 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
         defaultInventoryID._props.Slots[4]._props.filters[0].Filter.push("superbandana");
         defaultInventoryID._props.Slots[4]._props.filters[0].Filter.push("orangebandana");
 
-        logger.logWithColor("HEY!! Database has loaded, make changes now!", LogTextColor.cyan);
-
         //Custom Settings
         //Super Kappa Size
         db.templates.items.superkappa._props.Grids[0]._props.cellsH = this.modConfig.kappaH;
@@ -166,7 +162,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
         for (const buff in myBuffs)
         {
             buffs[buff] = myBuffs[buff];
-            logger.logWithColor(buff + " added", LogTextColor.red);
+            if (debug) logger.logWithColor(buff + " added", LogTextColor.RED);
         }
 
         //Create Clone Items
@@ -176,11 +172,11 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
         db.templates.items[m45A1SlideOrange]._props.Prefab.path = "assets/content/items/mods/recievers/reciever_m1911_colt_m45a1_orange.bundle";
 
         db.templates.items["5f36a0e5fbf956000b716b65"]._props.Slots[2]._props.filters[0].Filter.push(m45A1SlideOrange);
-        this.cloneItem("superpilgrim", "superduperpilgrim");
+        /*this.cloneItem("superpilgrim", "superduperpilgrim");
         db.templates.items.superduperpilgrim._props.Width = 1;
         db.templates.items.superduperpilgrim._props.Height = 1;
         db.templates.items.superduperpilgrim._props.Grids[0]._props.cellsH = 6;
-        db.templates.items.superduperpilgrim._props.Grids[0]._props.cellsV = 600;
+        db.templates.items.superduperpilgrim._props.Grids[0]._props.cellsV = 600;*/
         //superpilgrim
         //superkappa
         //superscav
@@ -205,7 +201,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
 
         if (debug)
         {
-            logger.logWithColor(itemToAdd + " added", LogTextColor.green);
+            logger.logWithColor(itemToAdd + " added", LogTextColor.GREEN);
         }
     }
 
@@ -259,7 +255,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
 
         const ROUBLE_ID = "5449016a4bdc2d6f028b456f";
 
-        const newSuperDuperPilgrim: Item = {
+        /*const newSuperDuperPilgrim: Item = {
             _id: "superduperpilgrim",
             _tpl: "superduperpilgrim",
             parentId: "hideout",
@@ -268,7 +264,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
                 UnlimitedCount: true,
                 StackObjectsCount: 999999999,
             }
-        };
+        };*/
         const newSuperAmmo: Item = {
             _id: "superammo",
             _tpl: "superammo",
@@ -470,7 +466,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
                 StackObjectsCount: 999999999,
             }
         };
-        //assortTable.items.push(newSuperDuperPilgrim);
+        /*assortTable.items.push(newSuperDuperPilgrim);*/
         assortTable.items.push(newSuperAmmo);
         assortTable.items.push(newSuperDocs);
         assortTable.items.push(newSuperDog);
@@ -492,14 +488,14 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
         assortTable.items.push(newSuperBandanaOrange);
         assortTable.items.push(neworangeM4A1Slide);
 
-        assortTable.barter_scheme["superduperpilgrim"] = [
+       /*assortTable.barter_scheme["superduperpilgrim"] = [
             [
                 {
                     count: this.modConfig.superammoPrice,
                     _tpl: ROUBLE_ID
                 }
             ]
-        ];
+        ];*/
         assortTable.barter_scheme["superammo"] = [
             [
                 {
@@ -661,7 +657,7 @@ class SuperItems implements IPreAkiLoadMod, IPostDBLoadMod
             ]
         ];
         
-        assortTable.loyal_level_items["superduperpilgrim"] = 1;
+       /* assortTable.loyal_level_items["superduperpilgrim"] = 1;*/
         assortTable.loyal_level_items["superammo"] = 1;
         assortTable.loyal_level_items["superdocs"] = 1;
         assortTable.loyal_level_items["superdog"] = 1;

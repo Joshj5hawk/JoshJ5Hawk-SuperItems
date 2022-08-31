@@ -2,6 +2,7 @@ import { DialogueHelper } from "../helpers/DialogueHelper";
 import { SecureContainerHelper } from "../helpers/SecureContainerHelper";
 import { TraderHelper } from "../helpers/TraderHelper";
 import { IPmcData } from "../models/eft/common/IPmcData";
+import { InsuredItem } from "../models/eft/common/tables/IBotBase";
 import { Item } from "../models/eft/common/tables/IItem";
 import { ISaveProgressRequestData } from "../models/eft/inRaid/ISaveProgressRequestData";
 import { IInsuranceConfig } from "../models/spt/config/IInsuranceConfig";
@@ -22,7 +23,6 @@ export declare class InsuranceService {
     protected dialogueHelper: DialogueHelper;
     protected configServer: ConfigServer;
     protected insured: Record<string, Record<string, Item[]>>;
-    protected templatesById: {};
     protected insuranceConfig: IInsuranceConfig;
     constructor(logger: ILogger, databaseServer: DatabaseServer, secureContainerHelper: SecureContainerHelper, randomUtil: RandomUtil, timeUtil: TimeUtil, saveServer: SaveServer, traderHelper: TraderHelper, dialogueHelper: DialogueHelper, configServer: ConfigServer);
     insuranceExists(sessionId: string): boolean;
@@ -32,11 +32,35 @@ export declare class InsuranceService {
     resetInsurance(sessionId: string): void;
     resetInsuranceTraderArray(sessionId: string, traderId: string): void;
     addInsuranceItemToArray(sessionId: string, traderId: string, itemToAdd: any): void;
-    getItemPrice(_tpl: string): number;
-    generateTemplatesById(): void;
-    sendInsuredItems(pmcData: IPmcData, sessionID: string): void;
+    /**
+     * Get the rouble price for an item by templateId
+     * @param itemTpl item tpl to get handbook price for
+     * @returns handbook price in roubles, Return 0 if not found
+     */
+    getItemPrice(itemTpl: string): number;
+    /**
+     * Sends stored insured items as message to player
+     * @param pmcData profile to modify
+     * @param sessionID SessionId of current player
+     * @param mapId Id of the map player died/exited that caused the insurance to be issued on
+     */
+    sendInsuredItems(pmcData: IPmcData, sessionID: string, mapId: string): void;
+    /**
+     * Store lost gear post-raid inside profile
+     * @param pmcData player profile to store gear in
+     * @param offraidData post-raid request object
+     * @param preRaidGear gear player wore prior to raid
+     * @param sessionID Session id
+     */
     storeLostGear(pmcData: IPmcData, offraidData: ISaveProgressRequestData, preRaidGear: Item[], sessionID: string): void;
     storeInsuredItemsForReturn(pmcData: IPmcData, offraidData: ISaveProgressRequestData, preRaidGear: Item[], sessionID: string): void;
-    protected addGearToSend(pmcData: IPmcData, insuredItem: any, actualItem: any, sessionID: string): any;
+    /**
+     * Add gear item to InsuredItems array in player profile
+     * @param pmcData profile to store item in
+     * @param insuredItem Item to store in profile
+     * @param actualItem item to store
+     * @param sessionID Session id
+     */
+    protected addGearToSend(pmcData: IPmcData, insuredItem: InsuredItem, actualItem: Item, sessionID: string): void;
     getPremium(pmcData: IPmcData, inventoryItem: Item, traderId: string): number;
 }

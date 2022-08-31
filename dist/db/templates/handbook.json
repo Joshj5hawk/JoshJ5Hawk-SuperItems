@@ -99,6 +99,11 @@
       "Id": "orangem45a1slide",
       "ParentId": "5b5f764186f77447ec5d7714",
       "Price": 5100
+    },
+    {
+    "Id": "superduperpilgrim",
+    "ParentId": "5b5f764186f77447ec5d7714",
+    "Price": 5100
     }
 ]
 }

@@ -1,10 +1,10 @@
 {
     "name": "SuperItems",
-    "version": "4.0.1",
+    "version": "4.1.0",
     "main": "src/superitems.js",
     "license": "MIT",
     "author": "JoshJ5Hawk",
-    "akiVersion": "3.2.0",
+    "akiVersion": "3.2.2",
     "scripts": {
         "setup:environment": "npm i",
         "build:unzipped": "copyfiles -e \"./node_modules/**/*.*\" -e \"./dist/**/*.*\" -e \"./package-lock.json\" -e \"./tsconfig.json\" -e \"./README.txt\" -e \"./mod.code-workspace\" \"./**/*.*\" ./dist",
